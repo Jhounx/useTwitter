@@ -1,10 +1,10 @@
 ## useTwitter
 
-**useTwitter** a class for using Twitter easily in order to help create bots for the social network.
+**useTwitter** a python lib to use Twitter easily in order to help create bots for the social network.
 
 ## useTwitter Methods
 
-* `__init__(auth_token, publicId)` - Receives the `auth_token` cookie in string.
+* `__init__(auth_token)` - Receives the `auth_token` cookie in string.
 
 * `search(searchText, count=20)` - Method responsible for doing research on Twitter. It receives a string to be searched and an optional parameter `count` that sets the number of return tweets (Default is 20).
 
