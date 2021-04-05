@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+useTwitter/__init__.py
+useTwitter.egg-info/PKG-INFO
+useTwitter.egg-info/SOURCES.txt
+useTwitter.egg-info/dependency_links.txt
+useTwitter.egg-info/top_level.txt

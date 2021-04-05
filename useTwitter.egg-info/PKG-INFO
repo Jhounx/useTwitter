@@ -1,0 +1,45 @@
+Metadata-Version: 1.0
+Name: useTwitter
+Version: 1.0.0
+Summary: Uma clase para o uso do Twitter de forma facil com o objetivo de auxiliar a criação de bots para a rede social.
+Home-page: UNKNOWN
+Author: João Costa
+Author-email: joaocosta_neto@hotmail.com
+License: MIT
+Description: ## useTwitter
+        
+        **useTwitter** Ã© uma lib python para o uso do Twitter de forma facil com o objetivo de auxiliar a criaÃ§Ã£o de bots para a rede social.
+        
+        ## useTwitter Methods
+        
+        * `__init__(auth_token, publicId)` - Recebe o cookie `auth_token` e o ID publico do usuÃ¡rio ambos em string
+        
+        * `search(searchText, count=20)` - Recebe valor string para fazer pesquisa no Twitter e retorna um json com os resultados da pesquisa. O parametro `count` Ã© utilizado para falar quantos serÃ£o os resultados.
+        
+        * `homeTweet(text)` - Metodo responsavel por tweetar alguma coisa em seu perfil. Ele recebe uma string que Ã© o texto na qual serÃ¡ tweetado. 
+        
+        * `commentTweet(tweetId, text)` - Metodo responsavel comentar algum tweet. Ele recebe uma string `(tweetId)` que seria o ID de identificaÃ§Ã£o do post e o texto na qual serÃ¡ comentado. 
+        
+        * `likeTweet(tweetId)` - Metodo responsavel por favoritar algum tweet. Ele recebe uma string `(tweetId)` que seria o ID de identificaÃ§Ã£o do post.
+        
+        * `getNotif(count=20)` - Metodo responsavel por retornar as suas ultimas notificaÃ§Ãµes, pode-se setar a quantidade de retorno com o parametro `count`.
+        
+        * `retweet(tweetId)` - Metodo responsavel por retweetar algum tweet. Ele recebe uma string `(tweetId)` que seria o ID de identificaÃ§Ã£o do post.
+        
+        * `destroyTweet(tweetId)` - Metodo responsavel por deletar algum tweet. Ele recebe uma string `(tweetId)` que seria o ID de identificaÃ§Ã£o do post.
+        
+        ## useTwitter BOT Methods
+        
+        * `addFuntion(func)` - Recebe uma funÃ§Ã£o que Ã© adicionada a lista de funÃ§Ãµes que serÃ£o executas pelo bot.
+        
+        * `bot()` - Executa todos as funÃ§Ãµes da lista de funÃ§Ãµes do bot
+        
+        * `start(timer)` - ComeÃ§a o looping de execuÃ§Ãµes das funÃ§Ãµes que estÃ£o na lista de funÃ§Ãµes. O parametro timer seta qual vai ser o intervalo de tempo que a funÃ§Ã£o `bot()` serÃ¡ executada (PadrÃ£o Ã© 15 segundos). 
+        
+        
+        
+        
+        
+        
+Keywords: python bot twitter
+Platform: UNKNOWN
